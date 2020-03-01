@@ -1,0 +1,22 @@
+.logo {
+  display: block;
+  font-family: $signature-font;
+  font-size: $logo-font-size;
+  color: $heading-text-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 300;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.logo__first-leter {
+  font-weight: 700;
+  color: $accent-color;
+}

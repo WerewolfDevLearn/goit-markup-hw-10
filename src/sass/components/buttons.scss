@@ -1,0 +1,67 @@
+.article__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $product-heading-text-color;
+  border: 1px solid $accent-color;
+  border-radius: 4px;
+  background-color: $accent-color;
+  width: 160px;
+  height: 50px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $signature-price-bg-focus-color;
+    background-color: $signature-price-bg-focus-color;
+  }
+}
+
+.hero-banner__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $product-heading-text-color;
+  border: 1px solid $accent-color;
+  border-radius: 4px;
+  background-color: $accent-color;
+  width: 120px;
+  height: 42px;
+  transition-property: background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $signature-price-bg-focus-color;
+    background-color: $signature-price-bg-focus-color;
+  }
+}
+
+.footer__email-button {
+  height: 60px;
+  width: 90px;
+  border: 1px solid $product-heading-text-color;
+  border-radius: 0 5px 5px 0;
+  background-color: $accent-color;
+  padding-left: 25px;
+  transition-property: background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: $signature-price-bg-focus-color;
+    background-color: $signature-price-bg-focus-color;
+  }
+}
+
+.footer__icon {
+  display: block;
+  height: 26px;
+  width: 47px;
+}

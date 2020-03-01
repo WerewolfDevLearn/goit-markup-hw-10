@@ -1,0 +1,42 @@
+.news {
+  background-color: $new-products-bg-color;
+}
+
+.article {
+  font-family: $primary-font;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 350px;
+  margin-right: 30px;
+}
+
+.article:last-child {
+  margin-right: 0px;
+}
+
+.article__img {
+  margin-bottom: 20px;
+}
+
+.article__header {
+  font-size: $blog-signature-font-size;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 47px;
+
+  &::after {
+    display: block;
+    content: '';
+    width: 136px;
+    height: 3px;
+    background-color: $accent-color;
+    margin-top: 12px;
+  }
+}
+
+.article__text {
+  font-size: $text-size;
+  line-height: 26px;
+  margin-bottom: 16px;
+}

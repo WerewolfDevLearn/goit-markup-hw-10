@@ -1,0 +1,46 @@
+.about {
+  font-family: $primary-font;
+  font-size: 14px;
+  background-color: $product-heading-text-color;
+  align-items: center;
+}
+
+.list-about__header {
+  font-size: $product-signature-size;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.list-about {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-about__item {
+  max-width: 255px;
+}
+
+.list-about__text,
+.list-about__header {
+  text-align: center;
+}
+
+.list-about__text {
+  line-height: 24px;
+}
+
+.list-about__header {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.list-about__icon {
+  display: block;
+  width: 65px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 63px;
+  background-repeat: no-repeat;
+}

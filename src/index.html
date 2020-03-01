@@ -4,13 +4,982 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Placeholder title</title>
+    <title>goit-markup-hw-10</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CRoboto:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Сюда будет всталена ссылка на файл стилей -->
     <!-- inject:css -->
     <!-- endinject -->
   </head>
 
   <body>
+    <body>
+      <header>
+        <nav>
+          <section class="user-nav-background">
+            <h2 class="user-nav-background__header hidden">User navigation</h2>
+            <div class="user-nav container">
+              <ul class="contacts flex">
+                <li class="contacs__item">
+                  <a href="tel:+123-123456789" class="contacts__phone-number ">
+                    <svg class="contacts__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-phone"
+                      ></use>
+                    </svg>
+
+                    <p class="contacts__info">123-123456789</p>
+                  </a>
+                </li>
+                <li class="contacs__item">
+                  <a href="mailto:info@ltnt.com" class="contacts__mail">
+                    <svg class="contacts__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-email"
+                      ></use>
+                    </svg>
+                    <p class="contacts__info">info@ltnt.com</p></a
+                  >
+                </li>
+              </ul>
+              <ul class="user flex">
+                <li class="user__item">
+                  <a href="" class="user__link">My Account</a>
+                </li>
+                <li class="user__item">
+                  <a href="" class="user__link">Wishlist</a>
+                </li>
+                <li class="user__item">
+                  <a href="" class="user__link">Cart</a>
+                </li>
+                <li class="user__item">
+                  <a href="" class="user__link">Checkout</a>
+                </li>
+                <li class="user__item">
+                  <a href="" class="user__link">Login/Register</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="site-nav-background">
+            <h2 class="site-nav-background__header hidden">Site navigation</h2>
+            <div class="site-nav container">
+              <a href="#" class="logo"
+                ><span class="logo__first-leter">M</span>art</a
+              >
+              <ul class="site flex">
+                <li class="site__item">
+                  <a href="#" class="site__link">Home</a>
+                </li>
+                <li class="site__item">
+                  <a href="#" class="site__link">About us</a>
+                </li>
+                <li class="site__item">
+                  <a href="#" class="site__link">Page</a>
+                </li>
+                <li class="site__item">
+                  <a href="#" class="site__link">Shop</a>
+                </li>
+                <li class="site__item">
+                  <a href="#" class="site__link">Blog</a>
+                </li>
+                <li class="site__item">
+                  <a href="#" class="site__link">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </nav>
+      </header>
+      <main>
+        <section class="hero-banner">
+          <h1 class="hero-banner__header">
+            Dresses
+            <span class="hero-banner__first-line">&amp;</span> Jeans<br /><span
+              class="hero-banner__second-line"
+              >From Our famous Brand</span
+            >
+            <span class="hero-banner__first-line">Sale</span>
+          </h1>
+          <a href="" class="hero-banner__button">Buy Now</a>
+        </section>
+        <section class="collection about">
+          <div class="container">
+            <ul class="list-about flex">
+              <li class="list-about__item ">
+                <svg class="list-about__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-icon01"></use>
+                </svg>
+                <h3 class="list-about__header">Setting</h3>
+                <p class="list-about__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, illum. Adipisci nihil debitis veritatis
+                  laboriosam qui. Ipsa nobis magni accusantium?
+                </p>
+              </li>
+              <li class="list-about__item">
+                <svg class="list-about__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-icon02"></use>
+                </svg>
+                <h3 class="list-about__header">Money Back</h3>
+                <p class="list-about__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, illum. Adipisci nihil debitis veritatis
+                  laboriosam qui. Ipsa nobis magni accusantium?
+                </p>
+              </li>
+              <li class="list-about__item">
+                <svg class="list-about__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-icon03"></use>
+                </svg>
+                <h3 class="list-about__header">Worldwide Shipping</h3>
+                <p class="list-about__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, illum. Adipisci nihil debitis veritatis
+                  laboriosam qui. Ipsa nobis magni accusantium?
+                </p>
+              </li>
+              <li class="list-about__item">
+                <svg class="list-about__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-icon04"></use>
+                </svg>
+                <h3 class="list-about__header">Worldwide Shipping</h3>
+                <p class="list-about__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, illum. Adipisci nihil debitis veritatis
+                  laboriosam qui. Ipsa nobis magni accusantium?
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="collection new-products">
+          <div class="container">
+            <h2 class="collection__header">New collection</h2>
+            <svg class="collection__decoration">
+              <use
+                href="./images/icons/symbol-defs.svg#icon-decoration-icon-green"
+              ></use>
+            </svg>
+            <ul class=" new-products-list flex">
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/new-collection/2x/new-collection01@2x.png 510w
+                      "
+                      src="./images/content/new-collection/new-collection01.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">Blue Tshirt</h3>
+                    <p class="product__price">$26</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/new-collection/2x/new-collection02@2x.png 510w
+                      "
+                      src="./images/content/new-collection/new-collection02.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">WOMAN shirt</h3>
+                    <p class="product__price">$31</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <div class="product__img-container">
+                      <img
+                        srcset="
+                          ./images/content/new-collection/2x/new-collection03@2x.png 510w
+                        "
+                        src="./images/content/new-collection/new-collection03.png"
+                        sizes="255px"
+                        alt="shoes"
+                        width="255"
+                        class="product__image"
+                      />
+                    </div>
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">YELLOW Tshirt</h3>
+                    <p class="product__price">$21</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/new-collection/2x/new-collection04@2x.png 510w
+                      "
+                      src="./images/content/new-collection/new-collection04.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">Cool lingerie</h3>
+                    <p class="product__price">$56</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="collection products">
+          <div class="container">
+            <h2 class="collection__header">Featured products</h2>
+            <svg class="collection__decoration">
+              <use
+                href="./images/icons/symbol-defs.svg#icon-decoration-icon-green"
+              ></use>
+            </svg>
+            <ul class="flex list-products">
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product01@2x.png 510w
+                      "
+                      src="./images/content/products/product01.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+
+                  <div class="product__info">
+                    <h3 class="product__description">Blue Tshirt</h3>
+                    <p class="product__price">$26</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product02@2x.png 510w
+                      "
+                      src="./images/content/products/product02.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">WOMAN shirt</h3>
+                    <p class="product__price">$31</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product03@2x.png 510w
+                      "
+                      src="./images/content/products/product03.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">YELLOW Tshirt</h3>
+                    <p class="product__price">$21</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product04@2x.png 510w
+                      "
+                      src="./images/content/products/product04.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">Cool lingerie</h3>
+                    <p class="product__price">$56</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product05@2x.png 510w
+                      "
+                      src="./images/content/products/product05.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">Blue Tshirt</h3>
+                    <p class="product__price">$26</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product06@2x.png 510w
+                      "
+                      src="./images/content/products/product06.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">WOMAN shirt</h3>
+                    <p class="product__price">$31</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product07@2x.png 510w
+                      "
+                      src="./images/content/products/product07.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">YELLOW Tshirt</h3>
+                    <p class="product__price">$21</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+              <li class="product__item">
+                <a href="#" class="product__link">
+                  <div class="product__img-container">
+                    <img
+                      srcset="
+                        ./images/content/products/2x/product08@2x.png 510w
+                      "
+                      src="./images/content/products/product08.png"
+                      sizes="255px"
+                      alt="shoes"
+                      width="255"
+                      class="product__image"
+                    />
+                  </div>
+                  <div class="product__info">
+                    <h3 class="product__description">Cool lingerie</h3>
+                    <p class="product__price">$56</p>
+                  </div>
+                </a>
+                <div class="product__actions interactive">
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to favorit"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-favorit-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button
+                    class="interactive__button"
+                    aria-label="Add to compare"
+                  >
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-comper-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Show recent">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-recent-icon"
+                      ></use>
+                    </svg>
+                  </button>
+                  <button class="interactive__button" aria-label="Add to cart">
+                    <svg class="iteractive__icon">
+                      <use
+                        href="./images/icons/symbol-defs.svg#icon-add-to-cart"
+                      ></use>
+                    </svg>
+                    <span class="interactive__text">Add to cart</span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="collection news">
+          <div class="container">
+            <h2 class="collection__header">Lastest News</h2>
+            <svg class="collection__decoration">
+              <use
+                href="./images/icons/symbol-defs.svg#icon-decoration-icon-green"
+              ></use>
+            </svg>
+            <ul class="flex article-list">
+              <li class="article">
+                <img
+                  srcset="
+                    ./images/blog/blog01.png       350w,
+                    ./images/blog/2x/blog01@2x.png 700w
+                  "
+                  src="./images/blog/blog01.png"
+                  sizes="350px"
+                  alt="laptop with map"
+                  width="350"
+                  class="article__img"
+                />
+                <h3 class="article__header">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h3>
+
+                <p class="article__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                  necessitatibus error repellat quidem ducimus? Numquam, eius
+                  dicta. Delectus ex fuga
+                </p>
+                <a href="" class="article__button">Read More</a>
+              </li>
+              <li class="article">
+                <img
+                  srcset="
+                    ./images/blog/blog02.png       350w,
+                    ./images/blog/2x/blog02@2x.png 700w
+                  "
+                  src="./images/blog/blog02.png"
+                  sizes="350px"
+                  alt="two girls are reading something "
+                  width="350"
+                  class="article__img"
+                />
+                <h3 class="article__header">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h3>
+
+                <p class="article__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                  necessitatibus error repellat quidem ducimus? Numquam, eius
+                  dicta. Delectus ex fuga
+                </p>
+                <a href="" class="article__button">Read More</a>
+              </li>
+              <li class="article">
+                <img
+                  srcset="
+                    ./images/blog/blog03.png       347w,
+                    ./images/blog/2x/blog03@2x.png 694w
+                  "
+                  src="./images/blog/blog03.png"
+                  sizes="347px"
+                  alt="Buss passing by"
+                  width="347"
+                  class="article__img"
+                />
+                <h3 class="article__header">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h3>
+
+                <p class="article__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                  necessitatibus error repellat quidem ducimus? Numquam, eius
+                  dicta. Delectus ex fuga
+                </p>
+                <a href="" class="article__button">Read More</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <footer class="collection footer">
+          <h2 class="collection__header footer__header--decoration">
+            Newsletter
+          </h2>
+          <svg class="collection__decoration">
+            <use
+              href="./images/icons/symbol-defs.svg#icon-decoration-icon-white"
+            ></use>
+          </svg>
+          <p class="footer__text">Follow a collection of news & promotions</p>
+          <form class="footer__form-for-email" aria-label="Enter your email">
+            <input
+              type="email"
+              placeholder="Enter your email here"
+              name="email"
+              id="email"
+              class="footer__your-email"
+              aria-label="Your email"
+            />
+            <button
+              type="submit"
+              class="footer__email-button"
+              aria-label="submit your email adress"
+            >
+              <svg class="footer__icon">
+                <use href="./images/icons/symbol-defs.svg#icon-submit"></use>
+              </svg>
+            </button>
+          </form>
+        </footer>
+      </main>
+    </body>
+
     <!-- Сюда будет всталена ссылка на файл скриптов -->
     <!-- inject:js -->
     <!-- endinject -->

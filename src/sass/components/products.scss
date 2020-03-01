@@ -1,0 +1,132 @@
+.new-products {
+  background-color: $new-products-bg-color;
+}
+
+/* Product */
+
+.products {
+  background-color: $hero-banner-font-color;
+}
+
+.product__item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  width: 255px;
+  background-color: $new-products-bg-color;
+
+  &:hover .interactive,
+  &:focus .interactive {
+    opacity: 1;
+  }
+
+  &:hover .product__description,
+  &:focus .product__description {
+    background-color: $accent-color;
+  }
+
+  &:hover .product__price,
+  &:focus .product__price {
+    background-color: $signature-price-bg-focus-color;
+  }
+
+  &:hover .product__img-container::before,
+  &:focus .product__img-container::before {
+    top: 0;
+    left: 0;
+    transition-delay: 0ms;
+  }
+
+  &:nth-child(4n) {
+    margin-right: 0px;
+  }
+
+  &:nth-last-child(-n + 4) {
+    margin-bottom: 0px;
+  }
+}
+
+.product__link {
+  font-family: $signature-font;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+  width: 255px;
+  height: 322px;
+}
+
+.product__info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 255px;
+  height: 40px;
+  z-index: 2;
+}
+
+.product__description {
+  display: flex;
+  font-size: 18px;
+  font-weight: 900;
+  text-align: left;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  padding: 14px 29px 13px 13px;
+  color: $product-heading-text-color;
+  background-color: $signature-name-bg-color;
+  text-transform: uppercase;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product__price {
+  display: flex;
+  font-size: 18px;
+  font-weight: 900;
+  width: 55px;
+  height: 40px;
+  padding: 10px;
+  color: $product-heading-text-color;
+  background-color: $signature-price-bg-color;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product__img-container {
+  display: flex;
+  position: relative;
+  height: 282px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+
+  &::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    transition-property: top;
+    transition-duration: 250ms;
+    transition-delay: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.product__image {
+  height: 100%;
+  width: 100%;
+  object-fit: scale-down;
+}

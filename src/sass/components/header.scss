@@ -1,0 +1,129 @@
+.user-nav {
+  font-family: $primary-font;
+  font-size: $text-size;
+  font-weight: 300;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 23px;
+}
+
+.contacts__phone-number,
+.contacts__mail,
+.user__link {
+  color: $user-nav-font-color;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contacs__item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.contacts__phone-number {
+  display: inline-flex;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    color: $signature-price-bg-focus-color;
+  }
+
+  &:hover .contacts__icon,
+  &:focus .contacts__icon {
+    fill: $signature-price-bg-focus-color;
+  }
+}
+
+.contacts__mail {
+  display: inline-flex;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    color: $signature-price-bg-focus-color;
+  }
+
+  &:hover .contacts__icon,
+  &:focus .contacts__icon {
+    fill: $signature-price-bg-focus-color;
+  }
+}
+
+.contacts__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: $user-nav-font-color;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__info {
+  padding-left: 10px;
+}
+
+.user__link {
+  padding-left: 17px;
+  padding-right: 17px;
+
+  &:hover,
+  &:focus {
+    color: $signature-price-bg-focus-color;
+  }
+
+  &:last-child .user__link {
+    padding-right: 0px;
+  }
+}
+
+.site-nav {
+  font-family: $primary-font;
+  color: $menu-text-color;
+  text-transform: uppercase;
+  font-size: $text-size;
+  font-weight: 800;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 43px;
+  padding-bottom: 30px;
+}
+
+.site__link {
+  padding-right: 17px;
+  padding-left: 17px;
+  color: $menu-text-color;
+  display: block;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  &:last-child .site__link {
+    padding-right: 0px;
+  }
+}
+
+.site-nav-background {
+  background-color: $product-heading-text-color;
+}
+
+.user-nav-background {
+  background-color: $accent-color;
+}
